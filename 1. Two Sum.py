@@ -14,7 +14,7 @@ class Solution:
                 num_index_dict[num].append(index)
             else:
                 num_index_dict[num] = [index]
-        print(num_index_dict)
+                
         for num in num_index_dict.keys():
             num2 = target - num
             if num == num2:
