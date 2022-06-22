@@ -24,7 +24,7 @@ class Solution:
         point1 = 0
         point2 = 0
         while point1 < len(list1_val):
-            if list1_val[point1] < list2_val[point1]:
+            if list1_val[point1] < list2_val[point2]:
                 merge_val.append(list1_val[point1])
                 point1 += 1
             else:
